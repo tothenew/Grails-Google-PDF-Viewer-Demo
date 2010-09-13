@@ -2,7 +2,7 @@ class PdfViewerGrailsPlugin {
     // the plugin version
     def version = "0.1"
     // the version or versions of Grails the plugin is designed for
-    def grailsVersion = "1.3.4 > *"
+    def grailsVersion = "1.1 > *"
     // the other plugins this plugin depends on
     def dependsOn = [:]
     // resources that are excluded from plugin packaging
@@ -11,11 +11,11 @@ class PdfViewerGrailsPlugin {
     ]
 
     // TODO Fill in these fields
-    def author = "Your name"
-    def authorEmail = ""
-    def title = "Plugin summary/headline"
+    def author = "Hitesh,Ankur"
+    def authorEmail = "hitesh@intelligrape.com,ankur@intelligrape.com"
+    def title = "Google Doc Pdf Viewer"
     def description = '''\\
-Brief description of the plugin.
+    Provodes intigration with Google-Doc Pdf Viewer for opening pdf in Google Doc pdf viewer.
 '''
 
     // URL to the plugin's documentation
