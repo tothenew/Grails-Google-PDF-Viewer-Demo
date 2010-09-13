@@ -239,6 +239,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sample-Pdf-Viewer.iml" filepath="$PROJECT_DIR$/sample-Pdf-Viewer.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample-Pdf-Viewer-grailsPlugin-myplugin.iml" filepath="$PROJECT_DIR$/sample-Pdf-Viewer-grailsPlugin-myplugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-Pdf-Viewer-grailsPlugin-myplugin-grailsPlugins.iml" filepath="$PROJECT_DIR$/sample-Pdf-Viewer-grailsPlugin-myplugin-grailsPlugins.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample-Pdf-Viewer-grailsPlugins.iml" filepath="$PROJECT_DIR$/sample-Pdf-Viewer-grailsPlugins.iml" />
     </modules>
   </component>

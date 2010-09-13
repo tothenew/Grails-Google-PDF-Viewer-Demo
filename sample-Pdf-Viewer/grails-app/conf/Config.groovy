@@ -55,8 +55,8 @@ environments {
         absoluteUrl = "http://localhost:8080/sample-Pdf-Viewer"
     }
     test {
-        grails.serverURL = "http://localhost:8080/${appName}"
-        absoluteUrl = "http://qa3.intelligrape.net:12345/sample-Pdf-Viewer"
+        grails.serverURL = "http://changethis/${appName}"
+        absoluteUrl = "http://changethis/sample-Pdf-Viewer"
     }
 
 }

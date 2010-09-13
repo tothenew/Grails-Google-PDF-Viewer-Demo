@@ -44,7 +44,7 @@
         <jarDirectory url="file://$MODULE_DIR$/plugin/pdfViewer/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="sample-Pdf-Viewer-grailsPlugins" />
+    <orderEntry type="module" module-name="sample-Pdf-Viewer-grailsPlugin-myplugin-grailsPlugins" />
   </component>
 </module>
 
