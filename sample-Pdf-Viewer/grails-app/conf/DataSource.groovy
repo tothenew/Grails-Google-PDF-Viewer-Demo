@@ -1,11 +1,9 @@
 dataSource {
     pooled = true
-    driverClassName = "com.mysql.jdbc.Driver"
-    username = "root"
-    password = "igdefault"
-    dialect = 'org.hibernate.dialect.MySQL5InnoDBDialect'
+    driverClassName = "org.hsqldb.jdbcDriver"
+    username = "sa"
+    password = ""
 }
-
 hibernate {
     cache.use_second_level_cache = true
     cache.use_query_cache = true
@@ -16,21 +14,20 @@ environments {
     development {
         dataSource {
             dbCreate = "create-drop" // one of 'create', 'create-drop','update'
-            url = "jdbc:mysql://localhost:3306/pdfApp?zeroDateTimeBehavior=convertToNull"
+            url = "jdbc:hsqldb:mem:devDB"
         }
     }
-
     test {
         dataSource {
-            dbCreate = "create-drop" // one of 'create', 'create-drop','update'
-            url = "jdbc:mysql://localhost:3306/pdfApp?zeroDateTimeBehavior=convertToNull"        }
+            dbCreate = "update"
+            url = "jdbc:hsqldb:mem:testDb"
+        }
     }
     production {
         dataSource {
-            dbCreate = "create-drop" // one of 'create', 'create-drop','update'
-            username = "root"
-            password = "igdefault"
-            url = "jdbc:mysql://this:3306/pdfApp?zeroDateTimeBehavior=convertToNull"
+            dbCreate = "update"
+            url = "jdbc:hsqldb:file:prodDb;shutdown=true"
         }
     }
+}
 }
