@@ -16,6 +16,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e67d802a-f1ca-4382-9098-031f5fe62da0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-Pdf-Viewer.iws" afterPath="$PROJECT_DIR$/sample-Pdf-Viewer.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy" afterPath="$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/pdf/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/pdf/list.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/pdfViewer/grails-app/taglib/pdfviewer/PdfTagLib.groovy" afterPath="$PROJECT_DIR$/plugin/pdfViewer/grails-app/taglib/pdfviewer/PdfTagLib.groovy" />
     </list>
@@ -77,19 +78,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PdfViewerController.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PdfViewerController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="-0.6923077">
+            <state line="9" column="39" selection-start="267" selection-end="267" vertical-scroll-proportion="0.41447368">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/pdf/list.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="75" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.32374102">
+            <state line="45" column="35" selection-start="2173" selection-end="2173" vertical-scroll-proportion="-1.7307693">
               <folding />
             </state>
           </provider>
@@ -98,7 +99,7 @@
       <file leaf-file-name="PdfTagLib.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/taglib/pdfviewer/PdfTagLib.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="19" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+            <state line="7" column="8" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +126,6 @@
         <option value="$PROJECT_DIR$/plugin/pdfViewer/grails-app/domain/org/grails/plugins/pdfviewer/GoogleDocPdf.groovy" />
         <option value="$PROJECT_DIR$/plugin/pdfViewer/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/applicationFilters.groovy" />
-        <option value="$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/org/grails/samplePdfViewer/PdfController.groovy" />
         <option value="$PROJECT_DIR$/plugin/pdfViewer/PdfViewerGrailsPlugin.groovy" />
@@ -134,6 +134,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/plugin/pdfViewer/grails-app/taglib/pdfviewer/PdfTagLib.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/pdf/list.gsp" />
+        <option value="$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy" />
       </list>
     </option>
   </component>
@@ -559,23 +560,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/pdf/list.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="35" selection-start="2173" selection-end="2173" vertical-scroll-proportion="-1.7307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/taglib/pdfviewer/PdfTagLib.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+        <state line="7" column="8" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="-0.6923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/pdf/list.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="75" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.32374102">
+        <state line="9" column="39" selection-start="267" selection-end="267" vertical-scroll-proportion="0.41447368">
           <folding />
         </state>
       </provider>

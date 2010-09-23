@@ -5,14 +5,19 @@ import org.codehaus.groovy.grails.commons.ConfigurationHolder
 class PdfViewerController {
     def index = { }
     def addDocumentUrl = {
+        String chrome=""
+        if(params.chrome){
+            chrome = """&chrome=true"""
+        }
+
         GoogleDocPdf googleDocInstance = new GoogleDocPdf()
         googleDocInstance.path = params.fullPath
         googleDocInstance.token = UUID.randomUUID().toString()
         googleDocInstance.save(flush: true)
-        
+
         String googleDocUrl = "http://docs.google.com/viewer?embedded=true&url="
         String absoluteUrl = ConfigurationHolder.config.absoluteUrl.toString()
-        String url = googleDocUrl + absoluteUrl + "/pdfViewer/viewPdf/" + googleDocInstance.token
+        String url = googleDocUrl + absoluteUrl + "/pdfViewer/viewPdf/" + googleDocInstance.token + chrome
         redirect(url: url)
     }
 
