@@ -6,7 +6,7 @@ class PdfTagLib {
 
 
     def isSupportedByGoogleDocs = {attrs, body ->        
-        String path
+        String path        
         attrs['controller']="pdfViewer"
         attrs['action']="addDocumentUrl"
         path = attrs['params'].'fullPath'
