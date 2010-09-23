@@ -28,6 +28,7 @@
 
                 <g:sortableColumn property="mimeType" title="${message(code: 'pdf.mimeType.label', default: 'Mime Type')}"/>
                 <th>View</th>
+                <th>Chrome Mode</th>
             </tr>
             </thead>
             <tbody>
@@ -43,8 +44,13 @@
                     <td>${fieldValue(bean: pdfInstance, field: "mimeType")}</td>
                     <g:set var="fullPath" value="${(pdfInstance.path).toString()+'/'+ pdfInstance.fileName.toString()}"/>
                     <td>
-                        <pdf:isSupportedByGoogleDocs params="['fullPath':fullPath,chrome:true]">
+                        <pdf:isSupportedByGoogleDocs params="['fullPath':fullPath]">
                             View on Google Docs
+                        </pdf:isSupportedByGoogleDocs>
+                    </td>
+                    <td>
+                        <pdf:isSupportedByGoogleDocs params="['fullPath':fullPath,chrome:true]">
+                            Chrome Mode
                         </pdf:isSupportedByGoogleDocs>
                     </td>
 

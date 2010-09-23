@@ -9,7 +9,6 @@ class PdfViewerController {
         if(params.chrome){
             chrome = """&chrome=true"""
         }
-
         GoogleDocPdf googleDocInstance = new GoogleDocPdf()
         googleDocInstance.path = params.fullPath
         googleDocInstance.token = UUID.randomUUID().toString()
