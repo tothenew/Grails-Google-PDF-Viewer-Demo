@@ -1,8 +1,9 @@
-<plugin name='pdf-viewer' version='0.1' grailsVersion='1.3.4 &gt; *'>
-  <author>Your name</author>
-  <title>Plugin summary/headline</title>
+<plugin name='pdf-viewer' version='0.1' grailsVersion='1.1 &gt; *'>
+  <author>Hitesh,Ankur</author>
+  <authorEmail>hitesh@intelligrape.com,ankur@intelligrape.com</authorEmail>
+  <title>Google Doc Pdf Viewer</title>
   <description>\
-Brief description of the plugin.
+    Provodes intigration with Google-Doc Pdf Viewer for opening pdf in Google Doc pdf viewer.     
 </description>
   <documentation>http://grails.org/plugin/pdf-viewer</documentation>
   <resources>
@@ -10,6 +11,9 @@ Brief description of the plugin.
     <resource>Config</resource>
     <resource>DataSource</resource>
     <resource>UrlMappings</resource>
+    <resource>org.grails.plugins.pdfviewer.PdfViewerController</resource>
+    <resource>org.grails.plugins.pdfviewer.GoogleDocPdf</resource>
+    <resource>pdfviewer.PdfTagLib</resource>
   </resources>
   <dependencies />
   <behavior />

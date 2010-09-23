@@ -43,7 +43,7 @@
                     <td>${fieldValue(bean: pdfInstance, field: "mimeType")}</td>
                     <g:set var="fullPath" value="${(pdfInstance.path).toString()+'/'+ pdfInstance.fileName.toString()}"/>
                     <td>
-                        <pdf:isSupportedByGoogleDocs params="['fullPath':fullPath]" controller="pdfViewer" action="addDocumentUrl">
+                        <pdf:isSupportedByGoogleDocs params="['fullPath':fullPath]">
                             View on Google Docs
                         </pdf:isSupportedByGoogleDocs>
                     </td>

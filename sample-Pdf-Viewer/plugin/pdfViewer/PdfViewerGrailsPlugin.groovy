@@ -15,7 +15,7 @@ class PdfViewerGrailsPlugin {
     def authorEmail = "hitesh@intelligrape.com,ankur@intelligrape.com"
     def title = "Google Doc Pdf Viewer"
     def description = '''\\
-    Provodes intigration with Google-Doc Pdf Viewer for opening pdf in Google Doc pdf viewer.
+    Provides intigration with Google-Doc Pdf Viewer for opening pdf in Google Doc pdf viewer.     
 '''
 
     // URL to the plugin's documentation
