@@ -15,7 +15,7 @@ class PdfViewerController {
         googleDocInstance.save(flush: true)
 
         String googleDocUrl = "http://docs.google.com/viewer?embedded=true&url="
-        String absoluteUrl = ConfigurationHolder.config.absoluteUrl.toString()
+        String absoluteUrl = ConfigurationHolder.config.grails.serverURL.toString()
         String url = googleDocUrl + absoluteUrl + "/pdfViewer/viewPdf/" + googleDocInstance.token + chrome
         redirect(url: url)
     }
