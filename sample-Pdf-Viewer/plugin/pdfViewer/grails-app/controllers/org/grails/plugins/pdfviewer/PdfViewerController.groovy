@@ -4,6 +4,10 @@ import org.codehaus.groovy.grails.commons.ConfigurationHolder
 
 class PdfViewerController {
     def index = { }
+	/**
+	 * This action generates token for pdf, which in turn is used by Google for accessing the file.
+	 * After first hit from Google this token gets expired
+	 */
     def addDocumentUrl = {
         String chrome=""
         if(params.chrome){
@@ -19,6 +23,12 @@ class PdfViewerController {
         String url = googleDocUrl + absoluteUrl + "/pdfViewer/viewPdf/" + googleDocInstance.token + chrome
         redirect(url: url)
     }
+
+	/**
+	 * This action must be public, so that it can be accessed by Google.
+	 * It generates bytes for Google to access pdf.
+	 * 
+	 */
 
     def viewPdf = {
         GoogleDocPdf googleDocPdf = GoogleDocPdf.findWhere('token': params.id)
