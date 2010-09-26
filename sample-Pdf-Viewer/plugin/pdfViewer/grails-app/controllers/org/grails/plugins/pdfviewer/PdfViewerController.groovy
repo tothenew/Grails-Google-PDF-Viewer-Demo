@@ -6,8 +6,9 @@ class PdfViewerController {
     def index = { }
     static Boolean expires = true
 	/**
-	 * This action generates token for pdf, which in turn is used by Google for accessing the file.
-	 * After first hit from Google this token gets expired
+	 *Pdf taglib's tag isSupportedByGoogleDocs calls this method. And this makes Google access the application
+     * with the specified token.
+	 * After first access attemp  from Google this token gets expired only if its not opened in Chrome mode.
 	 */
     def addDocumentUrl = {
         String chrome=""

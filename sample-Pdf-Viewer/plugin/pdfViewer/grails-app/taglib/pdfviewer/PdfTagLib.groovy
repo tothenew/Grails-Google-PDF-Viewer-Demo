@@ -5,9 +5,8 @@ class PdfTagLib {
 	def g = new org.codehaus.groovy.grails.plugins.web.taglib.ApplicationTagLib()
 
 	/**
-	 * This tests if the given file is supported by Google Docs, If it does
-	 * it generates the link.
-	 *
+	 * This tag checks whether the file is supported by Google Docs, If it does
+	 * it generates the  token for Google , using which Google  access the application.
 	 */
 	def isSupportedByGoogleDocs = {attrs, body ->
 		String path
