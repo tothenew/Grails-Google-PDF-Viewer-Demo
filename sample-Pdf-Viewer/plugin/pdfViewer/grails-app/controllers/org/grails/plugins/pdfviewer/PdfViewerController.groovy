@@ -15,7 +15,6 @@ class PdfViewerController {
             chrome = """&chrome=true"""
             expires =false
         }else{
-            println "Not Chrome mode"
             expires =true
         }
         GoogleDocPdf googleDocInstance = new GoogleDocPdf()

@@ -1,6 +1,6 @@
 class PdfViewerGrailsPlugin {
     // the plugin version
-    def version = "0.1"
+    def version = "0.2"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.1 > *"
     // the other plugins this plugin depends on
@@ -15,7 +15,11 @@ class PdfViewerGrailsPlugin {
     def authorEmail = "hitesh@intelligrape.com,ankur@intelligrape.com"
     def title = "Google Doc Pdf Viewer"
     def description = '''\\
-    Provides intigration with Google-Doc Pdf Viewer for opening pdf in Google Doc pdf viewer.     
+    This plugin integrates power of Google doc pdf viewer to your application , though this plugin has been created using Grails-1.3.4 but it supports all version from Grails-1.1.
+    Example - Whenever pdf is attached as attachment to gmail , it gives two options 1) download 2) View When user selects view is opens pdf in GoogleDoc , similar effect is provided by this plugin , all user needs to do is give full path to tag provided by taglib.
+
+    Documentation available at
+    http://github.com/IntelliGrape/Grails-Google-PDF-Viewer-Demo/wiki
 '''
 
     // URL to the plugin's documentation
