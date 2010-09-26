@@ -48,15 +48,12 @@ grails.spring.bean.packages = []
 environments {
     production {
         grails.serverURL = "http://www.changeme.com"
-        absoluteUrl = ""
     }
     development {
         grails.serverURL = "http://localhost:8080/${appName}"
-        absoluteUrl = "http://localhost:8080/sample-Pdf-Viewer"
     }
     test {
-        grails.serverURL = "http://changethis/${appName}"
-        absoluteUrl = "http://changethis/sample-Pdf-Viewer"
+        grails.serverURL = "http://changethis/${appName}"       
     }
 
 }

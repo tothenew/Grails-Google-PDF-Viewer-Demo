@@ -4,6 +4,7 @@ import org.codehaus.groovy.grails.commons.ConfigurationHolder
 
 class PdfViewerController {
     def index = { }
+    static Boolean expires = true
 	/**
 	 * This action generates token for pdf, which in turn is used by Google for accessing the file.
 	 * After first hit from Google this token gets expired
@@ -12,6 +13,10 @@ class PdfViewerController {
         String chrome=""
         if(params.chrome){
             chrome = """&chrome=true"""
+            expires =false
+        }else{
+            println "Not Chrome mode"
+            expires =true
         }
         GoogleDocPdf googleDocInstance = new GoogleDocPdf()
         googleDocInstance.path = params.fullPath
@@ -26,8 +31,8 @@ class PdfViewerController {
 
 	/**
 	 * This action must be public, so that it can be accessed by Google.
-	 * It generates bytes for Google to access pdf.
-	 * 
+	 * It generates bytes for Google to access pdf. And makes sure that token gives to google expires
+     * if not opened in chrome mode
 	 */
 
     def viewPdf = {
@@ -46,7 +51,7 @@ class PdfViewerController {
             e.printStackTrace()
         }
 
-        if (googleDocPdf) {
+        if (googleDocPdf && expires) {
             googleDocPdf.delete(flush: true)
         }
     }

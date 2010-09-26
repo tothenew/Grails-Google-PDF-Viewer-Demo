@@ -15,12 +15,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e67d802a-f1ca-4382-9098-031f5fe62da0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-Pdf-Viewer.iws" afterPath="$PROJECT_DIR$/sample-Pdf-Viewer.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy" afterPath="$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/pdf/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/pdf/list.gsp" />
     </list>
-    <ignored path="$USER_HOME_GRAILS$/" />
     <ignored path="$USER_HOME_GRIFFON$/" />
+    <ignored path="$USER_HOME_GRAILS$/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,19 +78,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PdfViewerController.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="9" selection-start="396" selection-end="396" vertical-scroll-proportion="0.6513158">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/pdf/list.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="27" selection-start="1441" selection-end="1441" vertical-scroll-proportion="-3.1153846">
+            <state line="52" column="39" selection-start="2457" selection-end="2457" vertical-scroll-proportion="-7.6923075">
               <folding />
             </state>
           </provider>
@@ -98,7 +90,16 @@
       <file leaf-file-name="PdfTagLib.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/taglib/pdfviewer/PdfTagLib.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="8" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+            <state line="13" column="40" selection-start="343" selection-end="352" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PdfViewerController.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="35" selection-start="1966" selection-end="1966" vertical-scroll-proportion="1.879518">
               <folding />
             </state>
           </provider>
@@ -118,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/services/org/grails/samplePdfViewer/PdfService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/pdf/edit.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/pdf/create.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/pdf/show.gsp" />
@@ -128,10 +128,11 @@
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/org/grails/samplePdfViewer/PdfController.groovy" />
         <option value="$PROJECT_DIR$/plugin/pdfViewer/PdfViewerGrailsPlugin.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$USER_HOME_GRAILS$/1.3.4/projects/sample-Pdf-Viewer/plugins/tomcat-1.3.4/grails-app/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/plugin/pdfViewer/grails-app/taglib/pdfviewer/PdfTagLib.groovy" />
+        <option value="$PROJECT_DIR$/plugin/checkout/pdfViewer/grails-app/taglib/pdfviewer/PdfTagLib.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/pdf/list.gsp" />
         <option value="$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy" />
       </list>
@@ -175,7 +176,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Favorites" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -207,23 +207,33 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PhpRunConfigurationType" factoryName="PHP">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="FtpUpload" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="ValidateXdebugSetup" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -236,15 +246,6 @@
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PhpRunConfigurationType" factoryName="PHP">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="FtpUpload" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="ValidateXdebugSetup" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -423,7 +424,7 @@
     <frame x="1" y="24" width="1364" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27513227" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -438,7 +439,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3300305" sideWeight="0.6578483" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3300305" sideWeight="0.71252203" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -478,19 +479,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/domain/org/grails/plugins/pdfviewer/GoogleDocPdf.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.073619634" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/test/unit/pdfviewer/PdfViewerControllerTests.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="67" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" />
@@ -507,11 +495,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/org/grails/samplePdfViewer/Pdf.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.036809817" />
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/pdf/show.gsp">
@@ -519,63 +507,73 @@
         <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/grails/samplePdfViewer/PdfController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="8" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.6545454" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/PdfViewerGrailsPlugin.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.033395175">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.033395175" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME_GRAILS$/1.3.4/projects/sample-Pdf-Viewer/plugins/tomcat-1.3.4/grails-app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="41" selection-end="41" vertical-scroll-proportion="0.033395175">
+        <state line="1" column="24" selection-start="41" selection-end="41" vertical-scroll-proportion="0.033395175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/PdfViewerGrailsPlugin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="9" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.5152672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/checkout/pdfViewer/grails-app/taglib/pdfviewer/PdfTagLib.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.8014842">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="63" selection-start="2565" selection-end="2620" vertical-scroll-proportion="0.759542">
+        <state line="55" column="57" selection-start="2606" selection-end="2606" vertical-scroll-proportion="0.8244275">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/taglib/pdfviewer/PdfTagLib.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/services/org/grails/samplePdfViewer/PdfService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+        <state line="7" column="8" selection-start="124" selection-end="124" vertical-scroll-proportion="0.1335807">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/grails/samplePdfViewer/PdfController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="37" selection-start="866" selection-end="866" vertical-scroll-proportion="0.42168674">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/pdf/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="27" selection-start="1441" selection-end="1441" vertical-scroll-proportion="-3.1153846">
+        <state line="52" column="39" selection-start="2457" selection-end="2457" vertical-scroll-proportion="-7.6923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/taglib/pdfviewer/PdfTagLib.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="343" selection-end="352" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin/pdfViewer/grails-app/controllers/org/grails/plugins/pdfviewer/PdfViewerController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="396" selection-end="396" vertical-scroll-proportion="0.6513158">
+        <state line="52" column="35" selection-start="1966" selection-end="1966" vertical-scroll-proportion="1.879518">
           <folding />
         </state>
       </provider>

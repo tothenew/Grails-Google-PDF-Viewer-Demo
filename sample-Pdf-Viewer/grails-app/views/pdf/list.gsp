@@ -28,6 +28,7 @@
 
                 <g:sortableColumn property="mimeType" title="${message(code: 'pdf.mimeType.label', default: 'Mime Type')}"/>
                 <th>View</th>
+                <th>View with Menu</th>
 
             </tr>
             </thead>
@@ -46,6 +47,11 @@
                     <td>
                         <pdf:isSupportedByGoogleDocs params="['fullPath':fullPath]">
                             View on Google Docs
+                        </pdf:isSupportedByGoogleDocs>
+                    </td>
+                    <td>
+                        <pdf:isSupportedByGoogleDocs params="['fullPath':fullPath,chrome:true]">
+                           Chrome Mode
                         </pdf:isSupportedByGoogleDocs>
                     </td>
                 </tr>
